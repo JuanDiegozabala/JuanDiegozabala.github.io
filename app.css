@@ -78,6 +78,7 @@ h1{
     text-align: center;
     width: 65%;
     left: 18%;
+    bottom: 10%;
     font-size: 70px;            /*bienvenidos*/
     color: white;
     position: relative;
@@ -109,10 +110,11 @@ h1{
  
   .contenedor-texto{
     width: 80%;
+    bottom: 10%;
     display: flex;
     justify-content: center;
     margin: auto;
-    margin-top: 30px;
+   position: relative;
     flex-wrap: wrap;
   }
   
@@ -208,6 +210,17 @@ h1{
     align-items: center;          /*links de tatuajes*/
     position:absolute;
     top:15%;
+    left:10%;
+    transform: translate(-50%, -50%);
+    margin:0;
+    color: white;
+    text-decoration: none;
+ }
+ .cuidado-footer{
+  display:flex;
+    align-items: center;          /*links de cuidado*/
+    position:absolute;
+    top:20%;
     left:10%;
     transform: translate(-50%, -50%);
     margin:0;
@@ -497,11 +510,31 @@ h1{
         background-color: black;
         color:white;
      }
+     h1{
+      font-size: 26px;
+      font-weight: 700px;
+      margin-top: 3px;
+      top: 1%;
+      
+    }
+    .contenedor-texto{
+      top: 4%;
+    }
+     .whatsapp{
+      position:absolute;
+      top: 35%;
+    right: 5%;
+    width: 50px;
+    height: 50px;         
+    line-height: 55px;             /*icino de whatsapp*/
+    border-radius: 45px;
+    box-shadow:  7px 13px 37px #000;
+     }
       .rebota{
         margin-left:50%;
         margin-right: 50%;
         margin-bottom: 30px;
-        margin-top: 30px;
+        margin-top: 10px;
         margin-left: 40%;
         width: 60px;
         height: 60px;
@@ -524,8 +557,8 @@ h1{
       h4{
         position: absolute;
         justify-content: center;                   /*nombre de la empresa*/
-        top: 2%;
-        left: 35%;
+        top: 3%;
+        left: 40%;
         transform: translate(-50%, -50%);
         margin: 0;
         color: white;
@@ -547,7 +580,7 @@ h1{
       .navegacion{
         
         top:8%;
-        left:13%;
+        left:16%;
         transform: translate(-50%, -50%);
         color: white;
        
@@ -555,7 +588,7 @@ h1{
       .inicio-footer{
         
         top:12%;
-        left:7%;
+        left:11%;
         transform: translate(-50%, -50%);
         color: rgb(255, 255, 255);
         
@@ -563,7 +596,7 @@ h1{
      .contacto-footer{
       
         top:15%;
-        left:9%;
+        left:13%;
         transform: translate(-50%, -50%);
         
         color: rgb(255, 255, 255);
@@ -572,7 +605,14 @@ h1{
      .tattos-footer{
       
         top:12%;
-        left:24%;
+        left:26%;
+        transform: translate(-50%, -50%);
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+     }
+     .cuidado-footer{
+      top:15%;
+        left:28%;
         transform: translate(-50%, -50%);
         color: rgb(255, 255, 255);
         text-decoration: none;
@@ -581,7 +621,7 @@ h1{
       .pago{
        
         top:19%;
-        left:16%;
+        left:18%;
         transform: translate(-50%, -50%);
         color: rgb(255, 255, 255);
         text-decoration: underline;
@@ -640,28 +680,28 @@ h1{
       .contactos{
         
         top:34%;
-        left:14%;
+        left:16%;
         transform: translate(-50%, -50%);
         color: rgb(255, 255, 255);
         text-decoration: underline;
       }
       .telefono{
         top:39%;
-        left:13%;
+        left:17%;
         transform: translate(-50%, -50%);
         color: rgb(255, 255, 255);
       }
       .correo{
        
         top:43%;
-        left:22%;
+        left:26%;
         transform: translate(-50%, -50%);
         color: rgb(255, 255, 255);
       }
      
       .redes{
         top:48%;
-        left: 16%;
+        left: 17%;
         transform: translate(-50%, -50%);
         color: rgb(255, 255, 255);
         text-decoration: underline;
@@ -698,7 +738,7 @@ h1{
       .ubicacion{
      
         top:60%;
-        left:11%;
+        left:13%;
         transform: translate(-50%, -50%);
         
         color: rgb(255, 255, 255);
@@ -707,7 +747,7 @@ h1{
        
         
         top:78%;
-        left:36%;
+        left:39%;
         transform: translate(-50%, -50%);
         bottom: 140px;
         margin: 20px;
@@ -728,13 +768,7 @@ h1{
       .whatsapp{
         bottom: 30%;
       }
-      h1{
-        font-size: 26px;
-        font-weight: 700px;
-        margin-top: 150px;
-        margin-bottom: 100px;
-        
-      }
+      
       .descripcion{
         
         width: 98%;  /*contenedor de descripcion del tatuador*/
@@ -763,7 +797,7 @@ h1{
       }
       .imagen-info{
         bottom: 90%;
-        left: 87%;
+        left: 80%;
         height: 60px;
         width: 60px;
        
