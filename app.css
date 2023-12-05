@@ -499,11 +499,10 @@ h1{
   
   @media(max-width:500px){
       body{
-        width: 100%;
+        width: 99%;
+      
       }
-      main{
-        width: 100%;
-      }
+      
       .img{
         width: 100%;
       }
@@ -807,6 +806,7 @@ h1{
         bottom: -220px;
         right: 35%;
         width: 100%;
+        height: 87%;
         
        
         position: relative;
@@ -815,13 +815,13 @@ h1{
       .insta{
         width: 4%;
         height: 3%;
-        right: 30%;
+        right: 26%;
         position: relative;
       }
       .imagen-info{
         position: relative;
         top: 4%;
-        right: 80%;
+        right: 10%;
         width: 60px;
         height: 60px;
         border-radius: 40%;
