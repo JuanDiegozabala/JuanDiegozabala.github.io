@@ -796,16 +796,16 @@ h1{
        
       }
       .imgn{
-        width:45%;
-        height: 25%;
+        width:60%;
+        height: 40%;
         
         left: 6%;
         position: relative;
       }
       .parrafo{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  /*descripcion del tatuador*/
-        bottom: -130px;
-        right: 25%;
+        bottom: -220px;
+        right: 35%;
         width: 100%;
         
        
