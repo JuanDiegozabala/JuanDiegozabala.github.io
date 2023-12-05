@@ -558,11 +558,14 @@ h1{
         position: absolute;
         justify-content: center;                   /*nombre de la empresa*/
         top: 3%;
-        left: 36%;
+        width: 100%;
+        left: 59%;
         transform: translate(-50%, -50%);
         margin: 0;
         color: white;
        font-weight: bold;
+       font-size: 20px;
+
        
        
     
@@ -605,14 +608,14 @@ h1{
      .tattos-footer{
       
         top:12%;
-        left:28%;
+        left:32%;
         transform: translate(-50%, -50%);
         color: rgb(255, 255, 255);
         text-decoration: none;
      }
      .cuidado-footer{
       top:15%;
-        left:30%;
+        left:32%;
         transform: translate(-50%, -50%);
         color: rgb(255, 255, 255);
         text-decoration: none;
@@ -621,7 +624,7 @@ h1{
       .pago{
        
         top:19%;
-        left:18%;
+        left:20%;
         transform: translate(-50%, -50%);
         color: rgb(255, 255, 255);
         text-decoration: underline;
@@ -680,7 +683,7 @@ h1{
       .contactos{
         
         top:34%;
-        left:16%;
+        left:18%;
         transform: translate(-50%, -50%);
         color: rgb(255, 255, 255);
         text-decoration: underline;
@@ -694,14 +697,14 @@ h1{
       .correo{
        
         top:43%;
-        left:32%;
+        left:30%;
         transform: translate(-50%, -50%);
         color: rgb(255, 255, 255);
       }
      
       .redes{
         top:48%;
-        left: 17%;
+        left: 19%;
         transform: translate(-50%, -50%);
         color: rgb(255, 255, 255);
         text-decoration: underline;
@@ -709,7 +712,7 @@ h1{
       .insta-footer{
        
         top:53%;
-        left:6%;
+        left:9%;
         transform: translate(-50%, -50%);
         color: rgb(255, 255, 255);
         border-radius: 45px;
@@ -718,7 +721,7 @@ h1{
       .tiktok-footer{
         
         top: 53%;
-        left:17%;
+        left:20%;
         transform: translate(-50%, -50%);
         
         color: rgb(253, 253, 253);
@@ -728,7 +731,7 @@ h1{
       .face-footer{
         
         top:53%;
-        left:27%;
+        left:30%;
         transform: translate(-50%, -50%);
         margin:0;
         color: rgb(255, 255, 255);
