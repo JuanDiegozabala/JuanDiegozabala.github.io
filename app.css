@@ -605,14 +605,14 @@ h1{
      .tattos-footer{
       
         top:12%;
-        left:26%;
+        left:28%;
         transform: translate(-50%, -50%);
         color: rgb(255, 255, 255);
         text-decoration: none;
      }
      .cuidado-footer{
       top:15%;
-        left:28%;
+        left:30%;
         transform: translate(-50%, -50%);
         color: rgb(255, 255, 255);
         text-decoration: none;
@@ -694,7 +694,7 @@ h1{
       .correo{
        
         top:43%;
-        left:29%;
+        left:35%;
         transform: translate(-50%, -50%);
         color: rgb(255, 255, 255);
       }
