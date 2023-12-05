@@ -78,7 +78,7 @@ h1{
     text-align: center;
     width: 65%;
     left: 18%;
-    top: 10%;
+    top: 3%;
     font-size: 70px;            /*bienvenidos*/
     color: white;
     position: relative;
@@ -512,7 +512,7 @@ h1{
      }
      h1{
       font-size: 26px;
-      font-weight: 700px;
+      font-weight: 500px;
       margin-top: 3px;
       top: 1%;
       
@@ -558,7 +558,7 @@ h1{
         position: absolute;
         justify-content: center;                   /*nombre de la empresa*/
         top: 3%;
-        left: 40%;
+        left: 36%;
         transform: translate(-50%, -50%);
         margin: 0;
         color: white;
@@ -718,7 +718,7 @@ h1{
       .tiktok-footer{
         
         top: 53%;
-        left:13%;
+        left:17%;
         transform: translate(-50%, -50%);
         
         color: rgb(253, 253, 253);
@@ -728,7 +728,7 @@ h1{
       .face-footer{
         
         top:53%;
-        left:20%;
+        left:27%;
         transform: translate(-50%, -50%);
         margin:0;
         color: rgb(255, 255, 255);
@@ -752,6 +752,11 @@ h1{
         bottom: 140px;
         margin: 20px;
       
+      }
+      .icono-footer{
+        height:30px;
+        width: 30px;
+        
       }
       .fondo{
         
