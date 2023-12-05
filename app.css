@@ -458,26 +458,27 @@ h1{
     color: white;
   }
   .imagen-info{
-    position:absolute;
-   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   bottom: -2px;
-   right: 710px;
-    line-height: 55px;      /*instagram personal del  tatuador*/
-    text-decoration: none;
-    font-size: 15px;
-    color: rgb(255, 255, 255);
-    height: 30px;
-    width: 30px;
-    border-radius: 30%;
-   
-  
-  }
-  .imagen-info:hover{
-    transform: scale(1.1);    /*animacion del instagram personal del tatuador*/
-    color:rgb(255, 255, 255);
-    transition: all 0.5s ease-in-out;
-  
-  }
+    position: relative;
+    top: 75%;
+    right: 1150%;
+    width: 60px;
+    height: 60px;
+    border-radius: 40%;
+    box-shadow:  7px 13px 37px rgb(0, 0, 0);
+    animation: animateBall 0.9s linear infinite;
+   }
+   @keyframes animateBall{
+    50%, 10%{
+      transform: translateY(3px);
+    }
+    40% {
+      transform: translateY(9px);
+    }
+    60%{
+      transform: translateY(2px);
+    }
+   }
+ 
 
   .video{
     display: flex;
@@ -558,13 +559,14 @@ h1{
         position: absolute;
         justify-content: center;                   /*nombre de la empresa*/
         top: 3%;
-        width: 100%;
-        left: 59%;
+        
+        left: 50%;
         transform: translate(-50%, -50%);
+        width: 80%;
         margin: 0;
         color: white;
        font-weight: bold;
-       font-size: 20px;
+       font-size: 18px;
 
        
        
@@ -572,7 +574,7 @@ h1{
       }
       .footer{
         
-          
+            width: 100%;
             height: 160%;
             background-color:black;
             
@@ -799,19 +801,32 @@ h1{
         bottom: -130px;
         right: 25%;
         width: 100%;
+        
        
         position: relative;
         color: rgb(236, 236, 236);
       }
       .imagen-info{
-        bottom: 90%;
-        left: 80%;
-        height: 60px;
+        position: relative;
+        top: 4%;
+        right: 95%;
         width: 60px;
-       
-       
-      
-      }
+        height: 60px;
+        border-radius: 40%;
+        box-shadow:  7px 13px 37px rgb(0, 0, 0);
+        animation: animateBall 0.9s linear infinite;
+       }
+       @keyframes animateBall{
+        50%, 10%{
+          transform: translateY(3px);
+        }
+        40% {
+          transform: translateY(9px);
+        }
+        60%{
+          transform: translateY(2px);
+        }
+       }
       .video{
         display: flex;
         height: 450px;     
