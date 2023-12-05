@@ -501,6 +501,12 @@ h1{
       body{
         width: 100%;
       }
+      main{
+        width: 100%;
+      }
+      .img{
+        width: 100%;
+      }
 
       
       .barra-nav{
@@ -781,7 +787,7 @@ h1{
       
       .descripcion{
         
-        width: 98%;  /*contenedor de descripcion del tatuador*/
+        width: 100%;  /*contenedor de descripcion del tatuador*/
         left: -24%;
        
         position:relative;
@@ -806,10 +812,16 @@ h1{
         position: relative;
         color: rgb(236, 236, 236);
       }
+      .insta{
+        width: 4%;
+        height: 3%;
+        right: 30%;
+        position: relative;
+      }
       .imagen-info{
         position: relative;
         top: 4%;
-        right: 95%;
+        right: 80%;
         width: 60px;
         height: 60px;
         border-radius: 40%;
